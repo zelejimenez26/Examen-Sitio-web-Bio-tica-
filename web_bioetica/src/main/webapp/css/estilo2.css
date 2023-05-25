@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text-p{
+    text-align: center;
+    background-color: #005F73;
+    color: white;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+h3{
+    text-align: center;
+    padding: 10px;
+    font-family:'Lucida Sans';
+}
+.contenedor{
+    background-color: #1B414A;
+    color: white;
+}
+
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconos{
+    width: 40px;
+    cursor: pointer;
+}
+
+.logo{
+    width: 40px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.logotipo{
+    display: flex;
+}
+
+.contenido{
+    display: flex;
+    margin: 60px;
+}
+
+.articulos{
+	width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.secciones{
+    /*display: flex;*/
+    align-items: center;
+    padding: 40px;
+}
+
+.formato{
+    width: 500px;
+    height: 270px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #001219;
+    color: white;
+    margin-top: 40px;
+}
+
+.anexos{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.anexos a{
+    text-decoration: none;
+}
